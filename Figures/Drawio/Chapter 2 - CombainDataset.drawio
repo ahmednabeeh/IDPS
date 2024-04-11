@@ -1,0 +1,208 @@
+<mxfile host="65bd71144e">
+    <diagram id="TFNXv4I34hWf055LzY64" name="Page-1">
+        <mxGraphModel dx="1066" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;strokeWidth=1;strokeColor=#36393d;shape=flexArrow;fillColor=#ffcc99;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="310" y="100"/>
+                            <mxPoint x="240" y="100"/>
+                            <mxPoint x="240" y="130"/>
+                            <mxPoint x="320" y="130"/>
+                            <mxPoint x="320" y="180"/>
+                            <mxPoint x="290" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="SQLi Dataset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="10" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;strokeColor=#36393d;shape=flexArrow;fillColor=#f9f7ed;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="130"/>
+                            <mxPoint x="260" y="130"/>
+                            <mxPoint x="260" y="180"/>
+                            <mxPoint x="290" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="XSS Dataset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="10" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;" parent="1" source="5" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Unified Dataset from SQLi and XSS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="210" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Dataset &lt;br&gt;Pre-Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="210" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Using NLP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="210" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="ML Process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="526" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Firring SQL injection and XSS Attacks using Kali Linux tools and Checking the Web Application Vulnerability to achieve the IPDS proposed System&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="946" width="580" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="240" as="sourcePoint"/>
+                        <mxPoint x="430" y="370" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="37" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="249.76" y="590" as="sourcePoint"/>
+                        <mxPoint x="249.76" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="13" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="249.76" y="596" as="sourcePoint"/>
+                        <mxPoint x="249.76" y="646" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="299.76" y="500" as="sourcePoint"/>
+                        <mxPoint x="290" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="730" y="290"/>
+                            <mxPoint x="290" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Tokenization, Text Encoding, Capitalization, Noise and Stop Words Removal, Regular Expression" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="320" width="580" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Ignoring SQL and XSS Keywords" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="430" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Building Vocabulary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="430" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Building&amp;nbsp;BoW" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="430" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;" parent="1" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="460" as="sourcePoint"/>
+                        <mxPoint x="259.76" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="460" as="sourcePoint"/>
+                        <mxPoint x="660" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="Data Splitting with K-Fold Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="526" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Applying ML Algorithms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="526" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Train and Test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="626" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Modul Performance Measure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="626" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Save the Modules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="626" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="44" target="45" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="566" as="sourcePoint"/>
+                        <mxPoint x="590" y="566" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="45" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="606" as="sourcePoint"/>
+                        <mxPoint x="370" y="606" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="46" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="586" as="sourcePoint"/>
+                        <mxPoint x="300" y="636" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="655.5" as="sourcePoint"/>
+                        <mxPoint x="660" y="655.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="VMs Installation and Deploy The Web Server with Nineveh Government Actual system including (PHP, Python, DB Sever, and Files Permissions)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="736" width="580" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Running The protected Web App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="836" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Send User input to the Web Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="836" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Scan the request in real time with Python and PHP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="836" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0.88;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="54" target="55" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="730" y="681.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="730" y="741.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="55" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="485.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="590" y="485.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="56" target="57" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="875.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="600" y="875.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="729.9999999999998" y="380" as="sourcePoint"/>
+                        <mxPoint x="290" y="430" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="730" y="400"/>
+                            <mxPoint x="290" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=none;html=1;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="729.9999999999998" y="686" as="sourcePoint"/>
+                        <mxPoint x="290" y="736" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="730" y="706"/>
+                            <mxPoint x="290" y="706"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;strokeColor=#36393d;strokeWidth=1;shape=flexArrow;fillColor=#f9f7ed;width=7.5;endSize=4.277777777777778;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="729.9999999999998" y="896" as="sourcePoint"/>
+                        <mxPoint x="290" y="946" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="730" y="916"/>
+                            <mxPoint x="290" y="916"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
